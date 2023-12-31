@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #1a1a1a;
+  color: white;
+  overflow: hidden;
+}
+@media only screen and (max-width: 645px) {
+  body {
+    overflow-y: scroll;
+  }
+}
